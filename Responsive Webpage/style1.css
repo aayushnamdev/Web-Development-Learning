@@ -1,0 +1,50 @@
+*{
+    text-align: center;
+    text-shadow: 4px;
+    box-sizing: border-box;
+}
+
+.b-head{
+    overflow: hidden;
+    background-color: rgb(29, 153, 155);
+    border: solid rgb(19, 94, 96);
+
+}
+
+.head{
+    float: left;
+    background-color: rgb(54, 128, 177);
+}
+
+@media screen and (max-width: 450px) {
+    .head{
+        width: 100%;
+        height: 120px;
+        font-size: 40px;
+        border: 2px solid greenyellow;
+        padding: 20px;
+    }   
+}
+
+@media screen and (min-width: 451px) and (max-width: 1080px) {
+    .head{
+        width: 50%;
+        height: 120px;
+        font-size: 40px;
+        border: 2px solid greenyellow;
+        padding: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 1080px) {
+    .head{
+        width: 25%;
+        height: 120px;
+        font-size: 40px;
+        border: 2px solid greenyellow;
+        padding: 20px;
+
+    }
+    
+}
